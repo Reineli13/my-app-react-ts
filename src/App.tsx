@@ -1,4 +1,8 @@
 import { Button } from "./components/Button";
+import  Counter  from "./components/Counter";
+import PasswordField from "./components/PasswordField";
+import Starship from "./components/Starships";
+
 
 function App() {
   return (
@@ -9,8 +13,13 @@ function App() {
       
       {/* Botón con rounded activado */}
       <Button rounded>Este es un botón redondeado</Button>
+      <Counter />
+      <PasswordField />
+      <Starship />
     </div>
   );
 }
 
 export default App;
+
+
